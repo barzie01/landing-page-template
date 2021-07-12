@@ -835,6 +835,10 @@ footer .navigation a:hover {
     .about .container div p {
         font-size: 16px;   
     }
+
+    .about .container+.btn-main{
+        margin-top: 25px;
+    }
     
     .about article {
         padding: 0;   
@@ -858,16 +862,18 @@ footer .navigation a:hover {
         text-align: justify;
     }
     
-    .about .right .container h3 {
-        padding: 0;   
+    .about .right .container h3,
+    .about .left .container h3 {
+        margin-left: 45px;   
     }
     
-    .about .right .container button {
-        margin: 0 0 50px 0;;   
-    }
-    
+    .about .right .container .btn-main,
     .about .left .container .btn-main {
-        margin-top: 0;   
+        margin: 20px 0 0 45px;   
+    }
+
+    .about .opinions {
+        margin-top: 50px;
     }
     
     .about .opinions p:first-of-type {
